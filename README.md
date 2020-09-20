@@ -31,6 +31,15 @@ Use unsupervised machine learning models (PCA and KMeans) to find pattern in cry
 - Transform the PCA data to a dataframe, matching the original index
 
 *3. KMeans*
-- Create an Elbow Curve to determine K-value. 
+- Create an Elbow Curve to determine K-value. We will pick K=5.
+
+![elbow_curve](https://github.com/jjin92/Cryptocurrencies/blob/master/challenge/img/elbow_curve.png)
+- Create KMeans model with 5 clusters, and generate class predictions
+- Aggregate all information, PCA features, and predicted class into one dataframe
+
+![clustered_Df](https://github.com/jjin92/Cryptocurrencies/blob/master/challenge/img/cluster_df.PNG)
 
 *4. Visualization*
+- Visualize the 3 PCA features in 3D.
+
+![PCA_3D](https://github.com/jjin92/Cryptocurrencies/blob/master/challenge/img/PCA_3D.png)
